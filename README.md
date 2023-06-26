@@ -53,8 +53,11 @@ ARIMA Model:
 From the ACF and PACF plots, there appears to be strong autocorrelation, so I went with the Auto Regressive Integrated Moving Average model. 
 
 An ARIMA model is characterized by 3 parameters: p, d and q:
+
 p - The number of lag observations in the model; known as the lag or autoregressive order.
+
 d - The number of times that the raw observations are differenced; known as the degree of differencing.
+
 q - The size of the moving average window; known as the order of the moving average.
 
 The ARIMA model is expressed as:
